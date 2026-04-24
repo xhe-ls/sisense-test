@@ -1,0 +1,177 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "DB_USER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DB_USER_ID",
+            "oid": "eefe48ca-3028-4561-93a8-089873083756",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DB_SISENSE_USER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DB_SISENSE_USER_ID",
+            "oid": "c503afac-b164-4005-acb9-911da4274280",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DB_USER_EMAIL",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DB_USER_EMAIL",
+            "oid": "ec5900b0-a5fe-4656-9a50-14febe6cd258",
+            "precision": 200,
+            "scale": 0,
+            "size": 200,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DB_MEMBER_TYPE_NAME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DB_MEMBER_TYPE_NAME",
+            "oid": "152bbdcc-bceb-4414-aec0-2b567ff3e3b8",
+            "precision": 50,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DB_MEMBER_ORG_NAME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DB_MEMBER_ORG_NAME",
+            "oid": "13a70dd2-180f-44f6-9226-01575554e858",
+            "precision": 200,
+            "scale": 0,
+            "size": 200,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ACCESS_ANALYTICS_FEATURE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ACCESS_ANALYTICS_FEATURE",
+            "oid": "ae828fd8-e0bf-4b46-8174-d17433f87e2d",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "SIS_USER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SIS_USER_ID",
+            "oid": "6823825a-c3bf-4ff8-9fef-9c19260fac96",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "EXISTS_IN_SISENSE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "EXISTS_IN_SISENSE",
+            "oid": "79a9333a-2b05-447a-b74a-96a5a811dd3c",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "EXISTING_WITH_ACCESS_ANALYTICS",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "EXISTING_WITH_ACCESS_ANALYTICS",
+            "oid": "7a231933-98c2-4d93-bd3a-ff2ea8d7af51",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "IS_EXISTING_USER_ID_MATCH",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_EXISTING_USER_ID_MATCH",
+            "oid": "d588ab79-f1f3-4289-9ff6-d5cbc1644da5",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "IS_EXISTING_USER_ALL_GROUP_MATCH",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_EXISTING_USER_ALL_GROUP_MATCH",
+            "oid": "43c461f7-fdfe-4c50-b9ab-8bcc67332cbc",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "IS_EXISTING_USER_OWN_GROUP_MATCH",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_EXISTING_USER_OWN_GROUP_MATCH",
+            "oid": "d0121485-8c05-4938-bb13-f444a2c07cd1",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "ORG_GROUP_NAMES",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ORG_GROUP_NAMES",
+            "oid": "bcb96a90-c074-4725-893c-cfa7636c081b",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT \n    DB_USER_ID,\n    DB_SISENSE_USER_ID,\n    DB_USER_EMAIL,\n    DB_MEMBER_TYPE_NAME,\n    DB_MEMBER_ORG_NAME,\n    ACCESS_ANALYTICS_FEATURE,\n    SIS_USER_ID,\n    EXISTS_IN_SISENSE,\n    EXISTING_WITH_ACCESS_ANALYTICS,\n    IS_EXISTING_USER_ID_MATCH,\n    IS_EXISTING_USER_ALL_GROUP_MATCH,\n    IS_EXISTING_USER_OWN_GROUP_MATCH,\n    ORG_GROUP_NAMES\nFROM \"REPORTING\".\"REP_USER_VALIDATION_MISMATCHES\""
+    },
+    "dataset": "1eb4a601-6a98-4d50-a5cb-a3643f2fc84a",
+    "hidden": false,
+    "id": "tq_dvcDLCye2",
+    "isMaterialized": false,
+    "name": "Fact_UserValidationMismatches",
+    "oid": "58079421-6eb8-4588-bf82-b0ffe5bfe243",
+    "schemaName": "DW_PROD_REPORTING_DB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

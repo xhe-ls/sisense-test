@@ -1,0 +1,10 @@
+{
+    "description": "",
+    "name": "Snowflake Dev",
+    "oid": "0e9ba4d5-6207-49ae-a65c-1e7001f22f44",
+    "provider": "SnowflakeJDBC",
+    "supportedModelTypes": [
+        "LIVE",
+        "EXTRACT"
+    ]
+}

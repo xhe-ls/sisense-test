@@ -1,0 +1,141 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "SNAPSHOT_DASHBOARD_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SNAPSHOT_DASHBOARD_ID",
+            "oid": "57b684da-c06d-41ed-8422-74821266ed34",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "OID",
+            "oid": "5247fbb6-d1a0-42cb-8deb-9ad014f1315e",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TOP_LEVEL_FOLDER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TOP_LEVEL_FOLDER_ID",
+            "oid": "346cdd0d-b06d-4526-a781-4bfa580cd89a",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "USER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "USER_ID",
+            "oid": "96666ef5-d58b-4b55-80c8-98ab12e50243",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TITLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TITLE",
+            "oid": "96994e47-84ef-4e88-a14b-52644339d461",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PARENT_FOLDER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "PARENT_FOLDER_ID",
+            "oid": "1fd09d5b-1f13-4401-b10b-4660bb18a616",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "fb018dee-8e8c-4aef-b6c2-ad81b046cadd",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LAST_UPDATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_UPDATED",
+            "oid": "b9207756-5dd5-4253-b279-b32e48adafd0",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SNAPSHOT_DATE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SNAPSHOT_DATE",
+            "oid": "38fd0951-4378-4d8f-b25e-6587f8c21a35",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_TOP_LEVEL_FOLDER",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_TOP_LEVEL_FOLDER",
+            "oid": "9ad528e8-54cf-4d0f-aafe-e4013d9658a9",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT * FROM \"REPORTING\".\"REP_SNAPSHOT_SIS_DASHBOARDS\""
+    },
+    "dataset": "938d66d4-5439-4a67-91db-ab9b2b3d4bae",
+    "hidden": false,
+    "id": "tq_AhU5WrfxU",
+    "isMaterialized": false,
+    "name": "Fact_DashboardSnapshot",
+    "oid": "84029ec4-651f-4199-b94c-e90749aa558b",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

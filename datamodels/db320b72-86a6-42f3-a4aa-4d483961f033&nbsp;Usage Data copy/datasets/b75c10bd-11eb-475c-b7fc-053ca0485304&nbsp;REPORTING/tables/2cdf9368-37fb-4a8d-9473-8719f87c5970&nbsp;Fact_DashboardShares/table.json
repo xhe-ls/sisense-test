@@ -1,0 +1,200 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "DASHBOARD_OID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_OID",
+            "oid": "585aa094-4e4d-4a9c-b19e-0b022fac9f25",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_TITLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_TITLE",
+            "oid": "f7c4a3e3-3eef-4b61-8033-3b072526dd1b",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_FOLDER",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_FOLDER",
+            "oid": "951588fe-b39c-42cc-ba17-20c8e20e1dc6",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_TOP_LEVEL_FOLDER",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_TOP_LEVEL_FOLDER",
+            "oid": "51eaba47-81a7-46d7-97a4-c2262b11adcb",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TOP_LEVEL_FOLDER_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TOP_LEVEL_FOLDER_ID",
+            "oid": "0d3f1073-3cf8-48e3-89be-27b8ed8d3060",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SHARE_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SHARE_ID",
+            "oid": "53acff38-d7c6-46c0-a318-7feb81ff94ff",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SHARE_TYPE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SHARE_TYPE",
+            "oid": "8afa117e-1f69-4295-b898-d8d3302aef01",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SHARE_NAME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SHARE_NAME",
+            "oid": "d575b79b-3b11-428d-8614-d7350808d577",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "RULE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RULE",
+            "oid": "229d5ae1-dab7-4d5a-a481-6a66288e38a4",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SUBSCRIBE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SUBSCRIBE",
+            "oid": "57590ea5-0da7-486c-b8aa-ca814b28a7f6",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_URL",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_URL",
+            "oid": "c3e42d4d-254b-4a04-b6ba-5324f23128ee",
+            "precision": 309,
+            "scale": 0,
+            "size": 309,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ALL_HCO",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ALL_HCO",
+            "oid": "1e8d0e69-fac7-416a-a738-977357ab5dc5",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ALL_VENDORS",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ALL_VENDORS",
+            "oid": "ee107ed6-0b31-45a0-8097-195f230e1597",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ALL_LOCUMSMART",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ALL_LOCUMSMART",
+            "oid": "b373fd4f-9d2c-489a-bb21-b6f451ce8123",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "_FIVETRAN_SYNCED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_FIVETRAN_SYNCED",
+            "oid": "ef18d185-e9ea-481e-ba4e-495f047646c8",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "b75c10bd-11eb-475c-b7fc-053ca0485304",
+    "hidden": false,
+    "id": "REP_SIS_DASHBOARD_SHARES",
+    "isMaterialized": false,
+    "name": "Fact_DashboardShares",
+    "oid": "2cdf9368-37fb-4a8d-9473-8719f87c5970",
+    "schemaName": "REPORTING",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,56 @@
+{
+    "analyticalEngine": {
+        "queryAeMode": "AE_ONLY"
+    },
+    "datamodelOid": "db320b72-86a6-42f3-a4aa-4d483961f033",
+    "description": "",
+    "importedIdIdentifier": "69ebcf46453cb2f39946f249",
+    "isDefault": true,
+    "name": "Default",
+    "oid": "db320b72-86a6-42f3-a4aa-4d483961f033",
+    "parentOid": null,
+    "relationsTables": [
+        {
+            "firstTable": "84029ec4-651f-4199-b94c-e90749aa558b",
+            "joinType": "default",
+            "secondTable": "9b366775-18eb-4477-b407-ffbd2ee0765b"
+        },
+        {
+            "firstTable": "a3396045-f768-4e46-a7bb-39c7133ab189",
+            "joinType": "default",
+            "secondTable": "9b366775-18eb-4477-b407-ffbd2ee0765b"
+        },
+        {
+            "firstTable": "2cdf9368-37fb-4a8d-9473-8719f87c5970",
+            "joinType": "default",
+            "secondTable": "9b366775-18eb-4477-b407-ffbd2ee0765b"
+        },
+        {
+            "firstTable": "926badc5-f2a5-49a3-9319-18fe103ade28",
+            "joinType": "default",
+            "secondTable": "9b366775-18eb-4477-b407-ffbd2ee0765b"
+        },
+        {
+            "firstTable": "396feb05-9b59-40c5-942d-71c80de8b210",
+            "joinType": "default",
+            "secondTable": "926badc5-f2a5-49a3-9319-18fe103ade28"
+        },
+        {
+            "firstTable": "396feb05-9b59-40c5-942d-71c80de8b210",
+            "joinType": "default",
+            "secondTable": "a3396045-f768-4e46-a7bb-39c7133ab189"
+        },
+        {
+            "firstTable": "396feb05-9b59-40c5-942d-71c80de8b210",
+            "joinType": "default",
+            "secondTable": "2cdf9368-37fb-4a8d-9473-8719f87c5970"
+        },
+        {
+            "firstTable": "396feb05-9b59-40c5-942d-71c80de8b210",
+            "joinType": "default",
+            "secondTable": "84029ec4-651f-4199-b94c-e90749aa558b"
+        }
+    ],
+    "tables": [
+    ]
+}

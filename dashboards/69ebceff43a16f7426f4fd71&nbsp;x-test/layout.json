@@ -1,0 +1,55 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "69ebceff43a16f7426f4fd72"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 824.983,
+                                "stretchable": false,
+                                "width": 50
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "69ebceff43a16f7426f4fd73"
+                                    }
+                                ],
+                                "index": 1,
+                                "pxlWidth": 824.983,
+                                "stretchable": false,
+                                "width": 50
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 1652.2,
+                "width": 100
+            }
+        ],
+        "instanceid": "BE5D8-F662-B8",
+        "type": "columnar"
+    },
+    "previewLayout": [
+    ]
+}

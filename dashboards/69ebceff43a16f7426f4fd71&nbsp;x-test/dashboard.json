@@ -10,6 +10,8 @@
         "title": "Usage Data copy"
     },
     "desc": "",
+    "filterRelations": [
+    ],
     "filters": "./filters.json",
     "hierarchies": [
     ],

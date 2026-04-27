@@ -1,0 +1,35 @@
+{
+    "filters": [
+        {
+            "disabled": false,
+            "instanceid": "0F766-F1F1-7E",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "TITLE",
+                "columnTitle": "TITLE",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaDataIAAacopy",
+                    "fullname": "localhost/Usage Data copy",
+                    "id": "localhost_aUsageIAAaDataIAAacopy",
+                    "live": false,
+                    "title": "Usage Data copy"
+                },
+                "datatype": "text",
+                "dim": "[Fact_Dashboards.TITLE]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "locale": "en-us",
+                "merged": true,
+                "table": "Fact_Dashboards",
+                "tableTitle": "Fact_Dashboards",
+                "title": "TITLE"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aUsageIAAaDataIAAacopy",
+        "fullname": "localhost/Usage Data copy",
+        "id": "localhost_aUsageIAAaDataIAAacopy",
+        "live": false,
+        "title": "Usage Data copy"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "69ebceff43a16f7426f4fd71",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00A7E1",
+                "#1572BA",
+                "#0F3152",
+                "#85CEE6",
+                "#373A36",
+                "#FBB03A",
+                "#F2821F",
+                "#F8CA10",
+                "#F8F3CB",
+                "#EC2027"
+            ],
+            "name": "LocumsMart"
+        }
+    },
+    "title": "x-test",
+    "widgets": [
+        "./widgets/69ebceff43a16f7426f4fd72/widget.json",
+        "./widgets/69ebceff43a16f7426f4fd73/widget.json"
+    ]
+}

@@ -37,6 +37,27 @@
             "name": "LocumsMart"
         }
     },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "69ebceff43a16f7426f4fd71"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2026-04-27",
+        "subscribe": false,
+        "timezone": 240,
+        "type": "onUpdate",
+        "tzName": "America/New_York"
+    },
     "title": "x-test",
     "widgets": [
         "./widgets/69ebceff43a16f7426f4fd72/widget.json",
